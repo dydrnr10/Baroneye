@@ -10,4 +10,6 @@
 5. 유투브 영상을 추천해주는 기능 (미완성)
 
 앱 사용 전
-<img src="https://user-images.githubusercontent.com/39851922/64074325-ac7d1880-cce4-11e9-9c41-3ea4132679c9.png" width="90%"></img>
+
+
+<img src="https://user-images.githubusercontent.com/39851922/64074325-ac7d1880-cce4-11e9-9c41-3ea4132679c9.png" width="30%"></img>
