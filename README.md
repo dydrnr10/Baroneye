@@ -9,7 +9,25 @@
 4. 유투브로 바로 들어갈 수 있도록 자주보는 영상의 링크를 띄워주는 기능 (완성)
 5. 유투브 영상을 추천해주는 기능 (미완성)
 
-앱 사용 전
+[ 앱 사용 전 ]
 
 
 <img src="https://user-images.githubusercontent.com/39851922/64074325-ac7d1880-cce4-11e9-9c41-3ea4132679c9.png" width="30%"></img>
+
+
+<img src="https://user-images.githubusercontent.com/39851922/64074335-ba329e00-cce4-11e9-9d3d-6ebcfb2194f4.png
+" width="30%"></img>
+
+
+[ 앱 사용 후 ]
+
+
+<img src="https://user-images.githubusercontent.com/39851922/64074330-b1da6300-cce4-11e9-8b0b-4481d4380e71.png"></img>
+
+
+<img src="https://user-images.githubusercontent.com/39851922/64074328-b0109f80-cce4-11e9-8a52-70e2aea56f23.png
+" width="30%"></img>
+
+<img src="https://user-images.githubusercontent.com/39851922/64074339-be5ebb80-cce4-11e9-97c7-855b052b0b31.png
+" width="30%"></img>
+
