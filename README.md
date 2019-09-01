@@ -44,7 +44,7 @@
 <img src="https://user-images.githubusercontent.com/39851922/64074339-be5ebb80-cce4-11e9-97c7-855b052b0b31.png" width="40%"></img>
 
 
-## 과
+## 결과
 
 
 <img src="https://user-images.githubusercontent.com/39851922/64074400-a9365c80-cce5-11e9-9037-6b53e485aba8.png" width="80%"></img>
