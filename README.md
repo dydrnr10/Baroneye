@@ -32,4 +32,4 @@
 [ 결과 ]
 
 
-<img src="https://user-images.githubusercontent.com/39851922/64074400-a9365c80-cce5-11e9-9037-6b53e485aba8.png" width="30%"></img>
+<img src="https://user-images.githubusercontent.com/39851922/64074400-a9365c80-cce5-11e9-9037-6b53e485aba8.png" width="80%"></img>
