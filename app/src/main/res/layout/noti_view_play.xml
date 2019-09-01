@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@android:style/TextAppearance.StatusBar.EventContent"
+    >
+
+
+    <ImageView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/play_baron"
+        android:layout_centerVertical="true"
+        />
+
+    <ImageButton
+        android:id="@+id/timer"
+        android:layout_width="51dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="33dp"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/noti_play_button"
+        android:layout_marginRight="33dp"
+        android:layout_alignParentRight="true" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_logo"
+        android:layout_alignTop="@+id/timer"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="13dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="13dp" />
+
+</RelativeLayout>

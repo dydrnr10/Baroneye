@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.baroneye">
+
+    <!-- <uses-permission android:name="android.permission.REORDER_TASKS" /> -->
+    <!-- <uses-permission android:name="android.permission.GET_TASKS" /> -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="바론아이"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_logo"
+        android:supportsRtl="true"
+        android:theme="@style/noAnimTheme">
+        <activity
+            android:name=".StartActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SensorActivity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".Service.OnOffService"
+            android:enabled="true" />
+        <service
+            android:name=".Service.SensorService"
+            android:enabled="true" />
+
+        <activity android:name=".ManageActivity" />
+
+        <service android:name=".Service.MyService" />
+
+        <activity
+            android:name=".LockScreenAppActivity"
+            android:label="바론아이"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+
+        <receiver
+            android:name=".Receiver.lockScreenReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".InterestYoutube" />
+        <activity android:name=".YoutubePlayer" />
+        <activity
+            android:name=".Alert.MyAlert"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".SelectVideo" />
+        <activity android:name=".Alert.PasswordAlert" />
+        <activity android:name=".TimeBar" />
+        <activity android:name=".PasswordActivity" />
+        <activity android:name=".ChangePasswordActivity" />
+        <activity android:name=".CheckChangePasswordActivity" />
+        <activity android:name=".RecommandYoutube"></activity>
+    </application>
+
+</manifest>

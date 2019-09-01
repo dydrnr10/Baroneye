@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.baroneye.RecommandYoutube">
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="397dp"
+        android:layout_height="496dp"
+        android:stretchColumns="*"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="30dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        tools:layout_editor_absoluteY="63dp"
+        tools:layout_editor_absoluteX="-21dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:padding="1dp"
+            >
+
+            <TextView
+                android:layout_width="25dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="#777777"
+                android:gravity="center_horizontal"
+                android:text="마지막 시청 영상"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="25dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="#777777"
+                android:gravity="center_horizontal"
+                android:text="가장 많이 본 영상"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="25dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="#777777"
+                android:gravity="center_horizontal"
+                android:text="바론아이 추천 영상"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:padding="1dp"
+            >
+
+            <TextView
+                android:id="@+id/last_video_0"
+                android:layout_width="25dp"
+                android:layout_height="90dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dp"
+                android:text="[뽀로로와 노래해요] 1기 - 3기 노래만 연속 이어보기"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/lot_video_0"
+                android:layout_width="25dp"
+                android:layout_height="90dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dp"
+                android:text="[뽀로로와 노래해요] 1기 - 3기 노래만 연속 이어보기"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/recomand_video_0"
+                android:layout_width="25dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dp"
+                android:text="[뽀로로와 노래해요] 1기 - 3기 노래만 연속 이어보기"
+                android:textSize="12sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:padding="1dp"
+            >
+
+            <TextView
+                android:id="@+id/last_video_1"
+                android:layout_width="25dp"
+                android:layout_height="90dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dp"
+                android:text="[뽀로로와 노래해요] 1기 - 3기 노래만 연속 이어보기"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/lot_video_1"
+                android:layout_width="25dp"
+                android:layout_height="90dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dp"
+                android:text="[뽀로로와 노래해요] 1기 - 3기 노래만 연속 이어보기"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/recomand_video_1"
+                android:layout_width="25dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dp"
+                android:text="1화 우리는 친구 | 뽀로로와 크롱은 어떻게 처음 만나게 되었을까? | 낯선 친구와 친구되는 법 | 사회성 배우기 | 뽀로로 New1"
+                android:textSize="12sp" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:padding="1dp"
+            >
+
+            <TextView
+                android:id="@+id/last_video_2"
+                android:layout_width="25dp"
+                android:layout_height="90dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dp"
+                android:text="타요 띠띠뽀, 닮은 점 BEST 5 | 무엇이 무엇이 똑같을까? | 뽀로로와 타요 친구, 띠띠뽀는 누구? | 뽀요뽀요 차트쇼 | 뽀로로 랭킹쇼"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/lot_video_2"
+                android:layout_width="25dp"
+                android:layout_height="90dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dp"
+                android:text="[뽀로로와 노래해요] 1기 - 3기 노래만 연속 이어보기"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/recomand_video_2"
+                android:layout_width="25dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dp"
+                android:text="[뽀로로와 노래해요] 1기 - 3기 노래만 연속 이어보기"
+                android:textSize="12sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:padding="1dp"
+            >
+
+            <TextView
+                android:id="@+id/last_video_3"
+                android:layout_width="25dp"
+                android:layout_height="90dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dp"
+                android:text="[뽀로로와 노래해요] 1기 - 3기 노래만 연속 이어보기"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/lot_video_3"
+                android:layout_width="25dp"
+                android:layout_height="90dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dp"
+                android:text="[뽀로로와 노래해요] 1기 - 3기 노래만 연속 이어보기"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/recomand_video_3"
+                android:layout_width="25dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dp"
+                android:text="[뽀로로와 노래해요] 1기 - 3기 노래만 연속 이어보기"
+                android:textSize="12sp" />
+        </TableRow>
+
+
+
+
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>
